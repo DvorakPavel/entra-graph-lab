@@ -42,7 +42,7 @@ Connect-MgGraph -Scopes "User.Read.All", "Group.Read.All"
 | Graph Explorer | PowerShell SDK |
 |---|---|
 | `GET /v1.0/users?$top=5&$select=displayName` | `Get-MgUser -Top 5 -Property DisplayName` |
-| `GET /v1.0/users?$filter=department eq 'HR'` | `Get-MgUser -Filter "department eq 'HR'"` |
+| `GET /v1.0/users?$filter=department eq 'IT'` | `Get-MgUser -Filter "department eq 'IT'"` |
 | `$orderby=displayName` | `-Sort "displayName"` or `-OrderBy "displayName"` |
 
 ## What I did
