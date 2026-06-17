@@ -43,7 +43,7 @@ Understand how Microsoft Graph permissions work — delegated vs application, co
 
 ## Effective permissions
 
-- Delegated: effective access = app permissions ∩ user privileges
+- Delegated: effective access = app permissions & user privileges
 - Application: effective access = app permissions
 - A delegated app with User.ReadWrite.All used by a non-admin user cannot modify other users — the user's own privileges limit it
 
