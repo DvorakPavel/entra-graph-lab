@@ -42,13 +42,7 @@ This repository documents my hands-on learning with the Microsoft Graph API as p
 ```
 entra-graph-lab/
 ├── notes/                          # Detailed notes per task
-│   ├── 01-graph-explorer-fundamentals.md
-│   ├── ...
-│   └── 15-automated-security-report.md
 ├── evidence/                       # Screenshots and redacted CSV exports
-│   ├── task-01-graph-explorer-fundamentals/
-│   ├── ...
-│   └── task-15-security-report/
 └── README.md
 ```
 
